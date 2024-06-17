@@ -1,0 +1,54 @@
+*{
+    font-family: Roboto;
+}
+h1{
+    color: #73715F;    
+    font-size: 30px;
+    font-weight: 800;
+}
+p{
+    color: var(--BLACK, #000);
+    font-family: Roboto;
+    font-size: 24px;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr ;
+    grid-template-rows: 0.5fr 2fr 0.5fr 2fr;
+    gap: 10px;
+    grid-template-areas: 
+    'quienes_somos quienes_somos quienes_somos'
+    'primer_parrafo primer_parrafo imagen'
+    'segundo_parrafo segundo_parrafo segundo_parrafo'
+    'ubi tercer_parrafo tercer_parrafo';
+}
+
+.quienes_somos{
+    grid-area: quienes_somos;
+    text-align: center;
+    justify-content: center;
+}
+.primer_parrafo{
+    grid-area: primer_parrafo;
+    
+}
+
+.imagen{
+    grid-area: imagen;
+    
+}
+
+.segundo_parrafo{
+    grid-area: segundo_parrafo;
+   
+}
+
+.ubi{
+    grid-area: ubi;
+
+}
+
+.tercer_parrafo{
+    grid-area: tercer_parrafo;
+    
+}

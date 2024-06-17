@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINE RECOMENDADO - El Dorado Pesca</title>
+    <link rel="stylesheet" href="../CCS/header_footer.css">
+    <!-- <link rel="stylesheet" href="../CCS/contactanos.css"> -->
+    <link rel="stylesheet" href="../CCS/contactanos1.css">
+    <link rel="icon" href="/media/iconos/el_dorado_icon.svg">
+    <script src="/JS/contactanos.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/contactanos.css">
+    
+</head>
+<body>
+    <header class="header">
+        <img class="icon" src="../media/iconos/el_dorado_icon.svg">
+        <div class="header-phones">
+            <div class="header-phones-2">
+                <img src="../media/iconos/phone_icon.png"> 
+                <p>(000) 1554670971</p>
+            </div>
+            <div class="header-phones-2">
+                <img src="../media/iconos/wpp_icon.svg"> 
+                <p>+94 5 3512633187</p>
+            </div>
+        </div>
+        <nav class="navigator">
+            <a class="button" href="../main_page.html">HOME PAGE</a>
+             <!--desplegable inicio  -->
+             <div class="dropdown">
+                <div class="dropbtn">PRODUCTOS</div>
+                <div class="dropdown-content">
+                    <a class="button" href="/Pages/productos-accesorios.html">ACCESORIOS</a>
+                    <a class="button" href="/Pages/productos-cañas.html">CAÑAS</a>
+                    <a class="button" href="/Pages/productos-reels.html">REELS</a>
+                    <a class="button" href="/Pages/productos-combos.html">COMBOS</a>
+                </div>
+            </div>
+            <!-- desplegable fin -->
+            <a class="button" href="./quines_somos.html">QUIENES SOMOS</a>
+            <a class="button" href="./contactanos.html">CONTACTANOS</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="contacto">
+                <h1 >CONTACTANOS</h1>
+            </div>
+            
+            <div class="info">
+                <h2>¡Comuníquese con nosotros!</h2>
+                <h3>Dirección:</h3>
+                <p>Catamarca 131</p>
+                <p>Centro, Córdoba Capital</p>
+                <h3>Horario de Atención</h3>
+                <p>9:00 hs a 17:00 hs</p>
+                <h3>Teléfono</h3>
+                <p>(000) 1554670971</p>
+                <p>+94 5 3512633187</p>
+                <h3>E-mail</h3>
+                <p>venta@eldoradopesca.com.ar</p>
+
+            </div>
+            <div class="formulario">
+                <a class="buttonC" href="../Pages/api-recomendamos.html">CINE RECOMENDADO (API)</a>
+                <br>
+                <br>
+                <h3>ENVIANOS TU CONSULTA</h3>
+                   
+                <form id="formValidacion" onsubmit="enviarFormulario()">
+                    <label>Nombre</label>
+                      <input type="text" class="form-control2" data-validate>
+                      <label>Apellido</label>
+                      <input type="text" class="form-control2" data-validate>
+                      <label>Email</label>
+                      <input type="email" placeholder="email@dominio.com" class="form-control2" data-validate>
+                        <br>
+                        <br>
+            
+                      <label class="chequeo3">Su consulta es acerca de:</label>
+                      <div>
+                        <div>
+                          <input class="form-check-input formulario_input" type="radio" name="flexRadioDefault" data-validate id="flexRadioDefault1">
+                          <label class="form-check-label" for="flexRadioDefault1">
+                              Cañas de pescar
+                          </label>
+                        </div>
+                        <div >
+                          <input class="form-check-input" type="radio" name="flexRadioDefault" data-validate id="flexRadioDefault2">
+                          <label class="form-check-label" for="flexRadioDefault2">
+                            Accesorios de pesca
+                          </label>
+                        </div>
+                        <div >
+                          <input class="form-check-input " type="radio" name="flexRadioDefault" data-validate id="flexRadioDefault3">
+                          <label class="form-check-label" for="flexRadioDefault3">
+                            Embarcaciones
+                          </label>
+                        </div>
+                      </div>
+                         <br>
+                      <label>Consulta</label>
+                      <textarea type="text"  data-validate></textarea>
+                     
+                      <div>
+                        <input class="form-check-input" type="checkbox" value="acepto" data-validate id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                          Acepto los terminos y condiciones
+                        </label>
+                      </div>
+                   
+                      <button type="submit">Enviar</button>
+                    </form>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="upper">
+            <p>Consultas al</p>
+            <div class="contactanos">
+                <div class="telefono">
+                    <p class="type">Telefono</p>
+                    <div class="phones">
+                        <img src="../media/iconos/phone_icon.png"> 
+                        <p>(000) 1554670971</p>
+                    </div>
+                </div>
+                <div class="telefono">
+                    <p class="type">Whatsapp</p>
+                    <div class="phones">
+                        <img src="../media/iconos/wpp_icon.svg"> 
+                        <p>+94 5 3512635454</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="down">
+            <div class="menu_final">
+                <div class="column">
+                    <p class="title">Categorias</p>
+                    <a href="">Accesorios</a>
+                    <a href="">Reels</a>
+                    <a href="">Cañas</a>
+                    <a href="">Combos</a>
+                </div>
+                <div class="column">
+                    <p class="title">Ayuda</p>
+                    <a href="">Cómo Solicitar Reparación</a>
+                    <a href="">Formas de Pago</a>
+                </div>
+                <div class="column">
+                    <p class="title">Institucional</p>
+                    <a href="">Quienes Somos</a>
+                    <a href="">Terminos y Condiciones</a>
+                    <a href="">Contacto</a>
+                </div>
+                <div class="column">
+                    <p class="title">Seguinos en:</p>
+                    <div>
+                        <img class="redes_icons" src="../media/iconos/facebook_icon.svg" alt="">
+                        <img class="redes_icons" src="../media/iconos/instagram_icon.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="información_final">
+                <div class="derechos">
+                    <div class="copyright">
+                        <img class="logo_copy" src="../media/iconos/copyright_icon.svg" alt="">
+                        <p>El Dorado Pesca 1987 - Todos los derechos resevados</p>
+                    </div>
+                    <div class="dirección">
+                        <p>Catamarca 131 - Centro, Córdoba Capital</p>
+                    </div>
+                </div>
+                <div class="legales">
+                    <img src="../media/iconos/compra_segura_icon.svg" alt="">
+                    <img src="../media/iconos/mercado_pago_acostado_icon.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <script src="../JS/contactanos.js"></script>
+
+</body>
+</html>

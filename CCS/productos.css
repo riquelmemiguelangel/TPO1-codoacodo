@@ -1,0 +1,237 @@
+/*Accesorios-Cañas-Reels-Combos */
+.titulo-seccion {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 35.16px;
+  letter-spacing: 0.23715278506278992px;
+  color: #73715F;
+  padding: 10px;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  display: flex;
+  width: 273px;
+  height: 68px;
+  padding: 20px 42px;
+  justify-content: center;
+  align-items: center;
+  background-color: #72DBF2;
+  color: black;
+  
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #72DBF2;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: auto;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #F2E772}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #F2E772;
+}
+h1,h2{
+font-size: 30px;
+color: #73715F;
+margin: 15px;
+font-weight: 800;
+}
+#sub {
+animation-name: sub;
+animation-duration: 1.5s;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+background-color: #73715F ;
+width: 0;
+margin: 0 auto;
+}
+@keyframes sub {
+from {width: 0;}
+to {width: 95%;}
+}
+/*Productos*/
+.tabla-productos {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 4rem;
+
+  overflow: scroll;
+  height: 70vh;
+}
+.producto {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px; max-width: 300px;
+  border-radius: 26px;
+  border: 1px solid #73715F;
+}
+.prod-img {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  margin: 10px;
+}
+.prod-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 10px auto;
+}
+.prod-info:nth-child(2) {
+font-weight: 300;
+}
+.prod-info p {
+margin: 0 auto;
+}
+.btn-compra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.btn-compra > button {
+  border-radius: 6px;
+  background-color: #F2E772;
+  border: 0;
+  width: fit-content;
+}
+.btn-compra > button:hover {
+background-color: #72DBF2;
+transition-duration: 300ms;
+}
+
+hr {
+  color: 73715F;
+  width: 95%;
+  margin: 0 auto;
+}
+/*Informacion de compra*/
+.info-pago {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+.info-pago > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sep {
+  background-color: #73715F;
+  width: 2px;
+  margin: 10px;
+}
+.info-icon {
+  max-width: 160px;
+}
+
+/*fuentes*/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+

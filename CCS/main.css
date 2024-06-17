@@ -1,0 +1,383 @@
+/* ETIQUETAS ELEMENTOS*/
+hr{
+  height: 2px;
+  background-color:#73715F;
+  margin: 10px 3%;
+}
+
+h1,h2{
+  font-size: 30px;
+  color: #73715F;
+  margin: 15px;
+  font-weight: 800;
+}
+
+h5{
+  color: #72DBF2;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+li{
+  color: white;
+  font-size: 16px;
+}
+
+nav{
+  background-color:#72DBF2;
+}
+
+.parrafo{ 
+  color: #0f0f0f;
+  font-size: 0.8em;
+}
+
+/*CLASES*/
+
+
+.abrir-menu ,
+.cerrar-menu {
+    display: none;
+}
+
+.autocentro{
+  margin: auto;
+}
+
+.BGnegro{
+  background-color: #0f0f0f;
+  padding: 10px;
+}
+
+.caja1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cajaBox{
+  margin: 10px 0px;
+  padding: 10px 32px;
+  display: flex;
+  background-color: #7e989d;
+  justify-content: space-around;
+  height: 140px;
+}
+.cajaBox img{
+  width: 20%;
+
+}
+
+.celeste{
+  background-color: #72DBF2;
+  /* font-size: 20px; */
+  padding:  8px;
+}
+
+.container{
+  /* width: 1900px; */
+  display: flex;
+  align-items: center;/* Centra verticalmente la imagen y el texto */
+  padding: 6px; 
+}
+
+.container2{
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+  padding: 10px;
+  width: 25%;
+}
+
+.containerpie{
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+}
+
+.containerpie1{
+  display: flex; 
+}
+
+.div-nav{
+  display: flex;
+  align-items: center;
+  height:80px;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #ececec;
+  background-color:red;
+  font-size: 18px;
+}
+
+.espacioPie{
+  margin: 0 20px 0 20px;
+}
+
+.hamburguesa{
+  width: 60px;
+}
+
+.imagen{
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+.imagen1{
+  height: 100px;
+  padding: 10px;
+}
+.imagen2{
+  height: 70px;
+  padding: 10px;
+}
+
+.imgPie{
+  height: 25px;
+  padding-right: 10px;
+}
+.imgPie2{
+  height: 42px;
+  padding-right: 15px;
+}
+
+.indexflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.lineas {
+  border: groove;
+  border-top-style: none;
+  border-bottom-style: none;
+  color: #73715F
+}
+
+.logo{
+  width: 160px;
+  height: 120px; 
+  background: url(../img/comun/logo.png);
+  background-position: center;
+  background-size: cover;
+  /* position: absolute; */
+    /* top: -10px;  */
+  filter: drop-shadow(0px 5px 10px #ff0000);
+  animation: rotar 7s linear infinite;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+@keyframes rotar{
+  from{
+      transform: rotateY(0deg);
+  }
+  to{
+      transform: rotateY(-360deg);
+  }
+}
+
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    padding: 15px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+
+.piemarca1{
+  display: none;
+}
+
+.pos1{
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
+/* grilla productos*/
+
+.productos {
+  padding: 10px 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.productos figure {
+  /* width: 20%; */
+  border-radius: 20px;
+  border: solid gray 1px;
+  margin: 6px;
+  padding: 6px;
+  max-width: 250px;
+  min-width:  220px;
+}
+
+.productos figure p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: left;
+  margin: 10px;
+}
+
+.productos figure img {
+  height: 145px; 
+  display:block;
+  margin:auto;
+}
+
+.productos figure img:hover{
+  transform: scale(2.2);
+  border: solid rgb(104, 66, 194) 1px;
+  border-radius: 5px;
+}
+
+.productos figure figcaption {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.productos figure figcaption div{
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+.productos figure div button {
+  background-color: #f2e772;
+  border-radius: 6px;
+  height: 25px;
+  width: 100px;
+  font-size: 14px;
+  margin: 0 10px 0 10px;
+}
+
+.productos figure div button:hover{
+  background-color: #72DBF2;
+  color: black;
+}
+
+.qui{
+  font-size: 12px;
+}
+.text-blanco{
+  color: white;
+}
+
+.text-centro{
+  text-align: center;
+}
+
+.productos figure div .text-precio{
+  font-weight: 600;
+  margin: 2px 10px
+}
+.productos figure .text-producto{
+  font-weight: 400;
+}
+.tres{
+  background-color: #72DBF2;
+  height: 60px;
+  justify-content: flex-end;
+  /* width: 900px; */
+}
+
+.unoa{
+  display: flex
+}
+.noaplica{
+  width: 100%;
+  
+/*   
+  justify-content: flex-end; */
+  /* width: 70%; */
+}
+.uno{
+  /* background-color: #f2e772; */
+  height: 160px;
+  /* width: 200px; */
+}
+
+
+/* --------------------------- PUNTO DE QUIEBRE x 3 ----------------------------------------------- */
+
+/* Extra small devices (600px and down) */
+/* @media only screen and (max-width: 600px) { */
+    /* @media only screen and (max-width: 600px) {} */
+  /* Medium devices (768px and up) */
+  /* @media only screen and (min-width: 768px) { */
+    /* @media only screen and (min-width: 768px) {} */
+
+/* 1er breakpoint */
+/* @media (min-width:768px){ */
+@media (min-width:600px)
+/*Body*/
+{
+  .productos figure button {
+    background-color: orange;
+  }
+  .productos{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .productos figure {
+    max-width: 200px;
+    min-width:  200px; 
+    margin-inline: 60px;
+  }
+  .imagen1{
+    height: 100px;
+    padding: 10px;
+  }
+  .imagen2{
+    height: 70px;
+    padding: 10px;
+  }
+}
+  /*pie*/
+  .piemarca1{
+    display: flex;
+    width: 50%;
+  }
+  .piemarca{
+  
+    width: 50%;
+  }
+
+/* 2do breakpoint */
+@media (min-width:1024px)
+/*Body*/
+{
+  .productos figure button {
+    background-color: #F2E772;
+    border-radius:6px;
+    border-color: transparent;
+  }
+  
+  .productos figure {
+    max-width: 300px;
+    min-width:  300px; 
+    margin-inline: 10px;
+  }
+  .imagen1{
+    height: 100px;
+    padding: 10px;
+  }
+  .imagen2{
+    height: 70px;
+    padding: 10px;
+  }
+}
+  /* FIN  */
